@@ -7,7 +7,7 @@ Increment the large integer by one and return the resulting array of digits.*/
 #include <vector>
 #include <algorithm>
 using namespace std;
-class Solution
+class Solution // Solution s1 class
 {
 public:
     vector<int> plusOne(vector<int> &digits)
@@ -36,7 +36,8 @@ public:
     }
 };
 int main()
-{
+{ 
+
     Solution s1;
     vector<int> v1{34,8,7,6,5,4,3};
     // int val;
